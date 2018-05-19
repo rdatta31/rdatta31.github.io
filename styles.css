@@ -71,7 +71,7 @@ h1 {
 
 .Project1 {
 	background-color: #F8F8F8;
-	margin-top: 5%;
+	margin-top: 4%;
 	margin-bottom: 5%;
     margin-left: auto; 
     margin-right: auto;
@@ -126,7 +126,7 @@ h1 {
     .sidenav 
     {width: 30%;
     padding-top: 2%;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 5%;
     margin-right: 10%;
     margin-bottom: 2%
@@ -195,6 +195,10 @@ a{
     color:#727272;
 }
 a.hover{
+    color:#267CB9;
+}
+
+.resume{
     color:#267CB9;
 }
 
