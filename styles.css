@@ -69,6 +69,29 @@ h1 {
 
 
 
+.NewText {
+	
+	margin-top: 4%;
+	margin-bottom: 5%;
+    margin-left: auto; 
+    margin-right: auto;
+    width:100%;
+    height:auto;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 3%;
+    padding-bottom: 3%;
+   
+
+}
+
+.NewText p {
+	padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+
 .Project1 {
 	background-color: #F8F8F8;
 	margin-top: 4%;
