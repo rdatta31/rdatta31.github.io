@@ -23,6 +23,7 @@
 
 }
 
+
 .headshot
 {
 	width: 90%;
@@ -38,6 +39,14 @@
 
 }
 
+.emoji
+{
+    width:3px;
+    padding-right: 1px;
+    padding-left: 1px;
+
+}
+
 h4{
     text-align: justify;
     color: #267CB9;
@@ -48,7 +57,7 @@ h4{
     padding-top: 0%;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 0%;
     line-height: 1.1;
     letter-spacing: 7px;
 
@@ -89,6 +98,17 @@ h1 {
     padding-right: 5%;
 }
 
+.menu
+{
+	font-size: 100%;
+	font-family: 'Proxima Nova Soft','Helvetica Neue',Helvetica, Serif;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #267CB9;
+
+}
+
 
 
 
@@ -101,11 +121,40 @@ h1 {
     width:100%;
     height:auto;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 0%;
+    padding-bottom: 0%;
    
 
 }
+
+.main {
+	margin-top: 4%;
+	margin-bottom: 0%;
+    margin-left: auto; 
+    margin-right: auto;
+    width:100%;
+    height:auto;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0%;
+    padding-bottom: 0%;
+   
+}
+
+.main p {
+	text-align: left;
+    color: #267CB9;
+    font-family: 'Proxima Nova Soft','Helvetica Neue', Helvetica, Serif;
+    font-size: 150%;
+    margin: 1% 0 0;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    line-height: 1.1;
+
+}
+
+
 
 .Project1 p {
 	padding-left: 5%;
@@ -133,12 +182,17 @@ h1 {
 	text-align: center;
 	padding-left: 10%;
 	padding-right: 10%;
-	padding-bottom: 2%;
+	padding-bottom: 0%;
 	padding-top: 0%;
 	line-height: 1.5;
 
 }
 
+.Project1 img {
+	float:left;
+	width: 35%;
+	padding: 1%;
+}
 
 
 
@@ -159,6 +213,11 @@ h1 {
     .Project1 {width: auto;}
     .Project1 {top:0};
     .Project1 {padding-left: 10%;}
+    
+    .main {margin-left: 38%;}
+    .main {width: auto;}
+    .main {top:0};
+    .main {padding-left: 10%;}
 	
 	.NewText {margin-left: 38%;}
     .NewText {width: auto;}
@@ -211,6 +270,8 @@ body{
     line-height:1.5;
     text-align:justify;
 }
+
+
 
 
     hr {
