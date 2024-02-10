@@ -223,6 +223,17 @@ h1 {
     .NewText {width: auto;}
     .NewText {top:0};
     .NewText {padding-left: 10%;}
+    
+    .menu
+{
+	font-size: 200%;
+	font-family: 'Proxima Nova Soft','Helvetica Neue',Helvetica, Serif;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #267CB9;
+
+}
 	
         
 
