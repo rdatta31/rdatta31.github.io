@@ -23,6 +23,13 @@
 
 }
 
+.image_reserach
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 
 .headshot
 {
@@ -123,8 +130,7 @@ h1 {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 0%;
     padding-bottom: 0%;
-   
-
+  
 }
 
 .main {
@@ -190,8 +196,12 @@ h1 {
 
 .Project1 img {
 	float:left;
-	width: 35%;
+	width: 400px;
 	padding: 1%;
+	  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+	
 }
 
 
@@ -213,6 +223,11 @@ h1 {
     .Project1 {width: auto;}
     .Project1 {top:0};
     .Project1 {padding-left: 10%;}
+    
+    .image_reserach {margin-left: 50%;}
+    .image_reserach {width: 40%;}
+    .image_reserach {top:0};
+    .image_reserach {padding-left: 10%;}
     
     .main {margin-left: 38%;}
     .main {width: auto;}
