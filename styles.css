@@ -271,6 +271,9 @@ h2 {
     font-family: Helvetica;
     font-size: 120%;
     font-variant: Helvetica Neue;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
 }
 h3 {
     color: #3d3c3c;
