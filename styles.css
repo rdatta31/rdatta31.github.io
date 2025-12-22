@@ -30,6 +30,13 @@
   width: 100%;
 }
 
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  margin-left: auto;
+}
+
 
 .headshot
 {
@@ -133,6 +140,19 @@ h1 {
   
 }
 
+.Project2 {
+	margin-top: 4%;
+	margin-bottom: 5%;
+    margin-left: auto; 
+    margin-right: auto;
+    width:100%;
+    height:auto;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0%;
+    padding-bottom: 0%;
+  
+}
+
 .main {
 	margin-top: 4%;
 	margin-bottom: 0%;
@@ -204,6 +224,14 @@ h1 {
 	
 }
 
+.Project2 img {
+  float: left;
+  width: 33%;
+  padding: 5px;
+  margin-left: 10%;
+	
+}
+
 
 
 /* On bigger screens, where height is more than 800px, change the style of the sidebar (less padding and a smaller font size) */
@@ -224,10 +252,27 @@ h1 {
     .Project1 {top:0};
     .Project1 {padding-left: 10%;}
     
+    .Project2 {margin-left: 38%;}
+    .Project2 {width: auto;}
+    .Project2 {top:0};
+    .Project2 {padding-left: 10%;}
+    
     .image_reserach {margin-left: 50%;}
     .image_reserach {width: 500px;}
-    .image_reserach {top:0};
+    .image_reserach {top:0;}
+/*
     .image_reserach {padding-left: 10%;}
+*/
+    
+/*
+    .column {margin-left: 50%;}
+*/
+/*
+    .column {top:0;}
+*/
+/*
+    .column {padding-left: 10%;}
+*/
     
     .main {margin-left: 38%;}
     .main {width: auto;}
